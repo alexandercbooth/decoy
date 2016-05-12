@@ -34,8 +34,7 @@ def make_decoy_data(df1, frac):
         df2[i] = df1[i].apply(lambda x: x * random.random())
 
 
-    print 'Done'
-
+    df2.columns = range(df1.shape[1])
     def test_structure():
         assert df1.dtypes == df2.dtypes
 
