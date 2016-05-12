@@ -35,10 +35,11 @@ Data columns (total 5 columns):
 1         75 non-null float64
 2         75 non-null float64
 3         75 non-null float64
-target    75 non-null int64
+4         75 non-null int64
 dtypes: float64(4), int64(1)
 memory usage: 3.0 KB
 ```
 ## Install from github
 ```
-pip install git+
+pip install git+https://github.com/alexandercbooth/decoy.git
+```
