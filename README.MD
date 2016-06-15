@@ -1,4 +1,6 @@
-# DECOY
+# DECOY :squirrel:
+[![Build Status](https://travis-ci.com/alexandercbooth/decoy.svg?token=UDZsiVdppziAsV1HLtLw&branch=master)](https://travis-ci.com/alexandercbooth/decoy)
+
 Have proprietary data and want to still run tests on a continuous integration platform? Decoy fabricates your data's structure and returns a pandas dataframe with random data in the same structure
 
 ```

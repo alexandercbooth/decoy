@@ -11,6 +11,8 @@ train = pd.DataFrame(iris.data)
 train['target'] = iris.target
 
 df = make_decoy_data(train, .5)
+
+df.columns = list(train.columns)
 def test_dtypes():
     for i in train.columns:
         assert train[i].dtypes == df[i].dtypes
